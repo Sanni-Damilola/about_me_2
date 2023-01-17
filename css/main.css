@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.box {
+  width: 40%;
+  display: none;
+}
+.box h1 {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 4em;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  color: white;
+}
+.box span {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.click {
+  padding: 20px 30px;
+  background: red;
+  cursor: pointer;
+}
+.click span {
+  font-size: 5em;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.click :hover {
+  color: white;
+  background: black;
+}
+
+.button :hover {
+  transition: all 700ms ease;
+  background-color: chartreuse;
+}
+
+.return {
+  padding: 20px 30px;
+  font-size: 3em;
+  font-style: italic;
+  display: none;
+  cursor: pointer;
+}
+.return :hover {
+  color: blue;
+}
+
+.name {
+  cursor: pointer;
+  width: 20em;
+}
+.name .new {
+  background: rebeccapurple;
+  padding: 20px 10px;
+}
+
+.new :hover {
+  color: blue;
+}
+
+.name :hover {
+  background: gold;
+  border-radius: 5em;
+  position: relative;
+  transition: all 700ms ease;
+}/*# sourceMappingURL=main.css.map */

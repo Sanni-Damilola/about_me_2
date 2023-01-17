@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="box"class="box">
+        <h1>hi i'm sanni</h1>
+        <h3>i reside at lagos apapa</h3> 
+        <span>i'm a software engineer</span>
+    </div>
+    <div class="button">
+        <button id="about" onclick="about()" class="click">
+            <span>click to know more about Sanni</span>
+        </button>
+        <button id="return" onclick="back()"  class="return">
+            <span>Return</span>
+        </button>
+    </div>
+    <div class="name">
+    <div class="new"><span>hdfdkolw</span></div>
+    </div>
+
+    <script>
+     function about () {
+         document.getElementById('box').style.display = 'block'; 
+         document.getElementById('about').style.display = 'none'; 
+         document.getElementById('return').style.display = 'block'; 
+     }
+    </script>
+    <script>
+        function back () {
+            document.getElementById('about').style.display = 'block'; 
+            document.getElementById('return').style.display = 'none'; 
+            document.getElementById('box').style.display = 'none'; 
+        }
+       </script>
+</body>
+</html>
